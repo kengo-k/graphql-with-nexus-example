@@ -1,8 +1,9 @@
 import { ApolloServer } from 'apollo-server'
-import {schema} from './schema'
+
+import { schema } from './schema'
 
 export function init() {
-  const server = new ApolloServer({schema})
+  const server = new ApolloServer({ schema })
 
   return {
     start: async () => {
