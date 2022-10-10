@@ -8,6 +8,6 @@ export const schema = makeSchema({
     // 型定義ファイルをnode_modules/@types/nexus-typegen/index.d.tsに生成する設定
     typegen: join(process.cwd(), 'node_modules', '@types', 'nexus-typegen', 'index.d.ts'),
     // GraphQL SDLファイルをgraphql/schema.graphqlに生成する設定
-    schema: join(process.cwd(), 'graphql', 'schema.graphql'),
+    schema: join(process.cwd(), 'src', 'schema.graphql'),
   }
 })
